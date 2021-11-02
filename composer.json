@@ -1,0 +1,25 @@
+{
+    "name": "murat/regions",
+    "description": "Turkey Country,State,District models data",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Murat Karabacak",
+            "email": "m9urat@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MuratEnes\\Regions\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "MuratEnes\\Regions\\RegionServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
