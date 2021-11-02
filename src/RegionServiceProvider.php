@@ -31,11 +31,5 @@ class RegionServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
         // routes
         $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
-        // seeds
-        if ($this->app->runningInConsole()){
-            $this->publishes([
-                __DIR__ . '/../database/seeds/CountrySeeder.php' => database_path('seeders/CountrySeeder.php'),
-            ], 'regions-seeds');
-        }
     }
 }

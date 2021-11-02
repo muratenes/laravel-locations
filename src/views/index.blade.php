@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Calculator</title>
+    <title>Test Page</title>
 </head>
 <body>
-<h1 style="text-align:center">
-    Your Result
-    <span style="font-weight:normal">{{ $result }}</span>
-</h1>
+<h1 style="text-align:center">Test Page</h1>
 </body>
 </html>

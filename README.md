@@ -13,7 +13,7 @@ Run this command in your application base folder.
 
 Some links are as follows
 
-###List all countries
+### List all countries
 
 `localhost:8000/locations/countries`
 
